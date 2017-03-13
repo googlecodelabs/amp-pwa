@@ -34,7 +34,7 @@ module.exports = {
     }
   }, {
     urlPattern: /cdn\.ampproject\.org/,
-    handler: 'networkFirst'
+    handler: 'fastest'
   }],
   importScripts: ['service-worker-import.js']
 };
