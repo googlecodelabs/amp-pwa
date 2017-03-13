@@ -36,6 +36,6 @@ module.exports = {
     }
   }, {
     urlPattern: /cdn\.ampproject\.org/,
-    handler: 'networkFirst'
+    handler: 'fastest'
   }]
 };
